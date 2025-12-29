@@ -103,7 +103,7 @@
 
     // cpu
     "cpu": {
-        "interval": 10,
+        "interval": 60,
         "format": "{icon0}{icon1}{icon2}{icon3}{icon4} {usage}%",
         "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
     },
@@ -119,7 +119,7 @@
 
     // dik
     "disk": {
-        "interval": 30,
+        "interval": 60,
         "format": " {free}",
         "path": "/",
         "tooltip": true,

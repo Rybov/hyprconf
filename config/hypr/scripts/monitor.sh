@@ -17,8 +17,8 @@ if [[ "$auto_generated_setting" ]]; then
 
     gum spin \
         --spinner minidot \
-        --spinner.foreground "#c3cbd0" \
-        --title.foreground "#c3cbd0" \
+        --spinner.foreground "#abc2be" \
+        --title.foreground "#abc2be" \
         --title "Setting up for your Monitor" -- \
         sleep 2
 
@@ -29,9 +29,9 @@ if [[ "$auto_generated_setting" ]]; then
     refresh_rate=$(gum choose \
                     --header \
                     "󰍹 Choose the refresh rate for your '$monitor_name' monitor:" \
-                    --header.foreground "#c3cbd0" \
-                    --selected.foreground "#c3cbd0" \
-                    --cursor.foreground "#c3cbd0" \
+                    --header.foreground "#abc2be" \
+                    --selected.foreground "#abc2be" \
+                    --cursor.foreground "#abc2be" \
                     "60Hz" "75Hz" "120Hz" "144Hz" "165Hz" "180Hz" "200Hz" "240Hz"
                 )
 

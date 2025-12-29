@@ -21,7 +21,7 @@
         "clock",
         "custom/weather",
         "custom/notify",
-        "custom/dots",
+        "custom/dots"
     ],
 
     "modules-center": [

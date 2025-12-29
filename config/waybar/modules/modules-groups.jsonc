@@ -36,24 +36,6 @@
        ]
     },
 
-    // system info universal
-    "group/sysinfo": {
-     "orientation": "inherit",
-     "drawer": {
-          "transition-duration": 300,
-          "children-class": "not-memory",
-          "click-to-reveal": true,
-          "transition-left-to-right": false
-     },
-
-     "modules": [
-          "custom/system",
-          "cpu",
-          "memory",
-          "disk",
-          "temperature"
-     ]
-  },
 
     // internet speed
     "group/network": {

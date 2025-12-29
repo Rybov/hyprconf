@@ -20,6 +20,7 @@
     "modules-left": [
         "custom/launch_rofi", 
         "tray", 
+        "bluetooth",
         "hyprland/workspaces#preview", 
         "custom/weather",
         "mpris" 
@@ -35,8 +36,10 @@
         "custom/updater", 
         "pulseaudio", 
         "pulseaudio#microphone", 
-        "group/sysinfo", 
-        "group/wall", // group for wallpapers and theme
+        "cpu",
+        "memory",
+        "disk",
+        "temperature",
         "idle_inhibitor", 
         "custom/nightlight", 
         "custom/clipboard", 
@@ -44,5 +47,5 @@
         "backlight",  
         "group/network", 
         "custom/power_btn"
-    ],
+    ]
 }
