@@ -1,0 +1,14 @@
+width=520
+height=360
+location=center
+show=drun
+allow_images=true
+image_size=24
+term=kitty
+prompt=Search...
+filter_rate=100
+matching=fuzzy
+insensitive=true
+hide_scroll=true
+no_actions=true
+lines=8

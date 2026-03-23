@@ -1,0 +1,62 @@
+* {
+  font-family: "Inter", "SF Pro Text", "Segoe UI", "NotoSans Nerd Font";
+  font-size: 14px;
+}
+
+window {
+  margin: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  background-color: #1a1b26;
+  background-clip: padding-box;
+  overflow: hidden;
+}
+
+#outer-box {
+  padding: 10px;
+  background-color: #1a1b26;
+}
+
+#input {
+  margin: 0px 0px 10px 0px;
+  padding: 8px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.03);
+  color: #c6d0f5;
+}
+
+#inner-box {
+  margin: 0px;
+  padding: 0px;
+  background-color: transparent;
+}
+
+#scroll {
+  margin: 0px;
+  background-color: transparent;
+}
+
+#entry {
+  padding: 7px 8px;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #c6d0f5;
+}
+
+#entry image {
+  margin-right: 10px;
+}
+
+#entry:selected {
+  background-color: rgba(255, 255, 255, 0.06);
+  color: #c6d0f5;
+}
+
+#text {
+  color: inherit;
+}
+
+#text:selected {
+  color: inherit;
+}
